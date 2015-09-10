@@ -1,0 +1,58 @@
+.content {
+	min-height: 1000px;
+	background-color: antiquewhite;
+	margin: auto;
+}
+.main-zone {
+	background-color: antiquewhite;
+
+}
+.sidebar {
+	background-color: #8c8c8c;
+	height: 100%;
+}
+
+.game-field {
+	height: 700px;
+	background-color: #398439;
+}
+.game-controls {
+	height: 1000px;
+	background-color: #dddddd;
+}
+
+.card-pocket{
+	height: 300px;
+	background-color: #1b6d85;
+}
+
+.card {
+	width: 35px;
+	height: 45px;
+	background-color: #cccccc;
+	text-align: center;
+	padding-top: 6px;
+	margin: 1px;
+	border: 1px solid #000000;
+	font-family: "Courier New", Courier, monospace;
+	font-size: x-large;
+}
+.red{
+	color: red;
+	font-weight: bold;
+}
+
+.black{
+	color: #000000;
+	font-weight: bold;
+}
+
+.orange{
+	color: darkorange;
+	font-weight: bold;
+}
+
+.blue{
+	color: mediumblue;
+	font-weight: bold;
+}
