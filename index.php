@@ -19,9 +19,7 @@
 				<div class="card orange" draggable="true">4</div>
 				<div class="card empty" ></div>
 			</div>
-			<div class="card-pocket ">
-				<div class="card red" draggable="true">13</div>
-			</div>
+
 		</div>
 		<div class="sidebar col-lg-3">
 
@@ -32,6 +30,9 @@
 
 	<script src="assets/js/jquery-2.1.4.js"></script>
 	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/logic/storage.js"></script>
+	<script src="assets/js/logic/CardService.js"></script>
+	<script src="assets/js/logic/mainController.js"></script>
 	<script src="assets/js/scripts.js"></script>
 
 </body>

@@ -13,7 +13,7 @@
 }
 
 .game-field {
-	height: 700px;
+	height: 500px;
 	background-color: #398439;
 }
 .game-controls {
@@ -22,9 +22,24 @@
 }
 
 .card-pocket{
-	height: 300px;
+	height: 150px;
+}
+
+.card-pocket.card-pocket-0 {
 	background-color: #1b6d85;
 }
+.card-pocket.card-pocket-1 {
+	background-color: #e4b9b9;
+}
+
+.card-pocket.card-pocket-2 {
+	background-color: #204d74;
+}
+
+.card-pocket.card-pocket-3 {
+	background-color: coral;
+}
+
 
 .card {
 	width: 35px;
@@ -37,6 +52,7 @@
 	font-family: "Courier New", Courier, monospace;
 	font-size: x-large;
 	cursor: move;
+	display: inline-block;
 }
 .red{
 	color: red;
@@ -75,7 +91,7 @@
 }
 
 /**
- * Перетаскивание 
+ * Перетаскивание
  */
 .card.over {
 	border: 1px dashed #000;

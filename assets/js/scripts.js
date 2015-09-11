@@ -53,13 +53,24 @@ function handleDragEnd(e) {
 	});
 }
 
+function initMoving(){
 
-var cols = document.querySelectorAll('.card');
-[].forEach.call(cols, function(col) {
-	col.addEventListener('dragstart', handleDragStart, false);
-	col.addEventListener('dragenter', handleDragEnter, false);
-	col.addEventListener('dragover', handleDragOver, false);
-	col.addEventListener('dragleave', handleDragLeave, false);
-	col.addEventListener('drop', handleDrop, false);
-	col.addEventListener('dragend', handleDragEnd, false);
-});
+	var cols = document.querySelectorAll('.card');
+	[].forEach.call(cols, function(col) {
+		col.addEventListener('dragstart', handleDragStart, false);
+		col.addEventListener('dragenter', handleDragEnter, false);
+		col.addEventListener('dragover', handleDragOver, false);
+		col.addEventListener('dragleave', handleDragLeave, false);
+		col.addEventListener('drop', handleDrop, false);
+		col.addEventListener('dragend', handleDragEnd, false);
+	});
+
+}
+
+
+var mc = mainController();
+mc.finishGame();
+
+mc.registerUser('kuzya');
+mc.registerUser('muha');
+mc.startGame();
